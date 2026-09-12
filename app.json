@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Agon Preview",
+    "slug": "agon-preview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.reda2685.agonpreview"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a838e400-6e87-4673-bd6d-1ce518d7e7d2"
+      }
+    },
+    "updates": {},
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
